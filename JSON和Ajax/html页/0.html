@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <meta charset="utf-8" />
+    <script src="../js/ckeditor/ckeditor.js"></script>
+</head>
+
+<body>
+    <h1>Hello world!</h1>
+    <textarea rows="30" cols="50" name="editor01">商品描述：</textarea>
+    <script type="text/javascript">CKEDITOR.replace('editor01');</script>
+
+    <form enctype="multipart/form-data" method="POST" dir="ltr" lang="zh-cn" action="../handler/uploadfile.ashx">
+        <input type="file" name="upload" size="38">
+        <input type="submit" name="upload2" size="38">
+    </form>
+
+</body>
+
+<script>
+    function login() {
+        info.innerHTML = "";
+        var username = document.getElementById("username").value;
+        var password = document.getElementById("password").value;
+
+        if (username == "" || password == "") {
+            info.innerHTML = "用户名或密码不能为空 !";
+            //alert("用户名或密码不能为空 !");
+        }
+        else {
+            ajax("../handler/log_in.ashx?username=" + username + "&password=" + y, function (resText) {
+                info.innerHTML = resText;
+                if (resText == "登录功") {
+                    info.style.color = "green";
+                    location.href = "homepage.html";
+                }
+            });
+        }
+    }
+</script>
+<script>
+        function signup()
+        {
+            var username = document.getElementById("usr").value;
+            var password = document.getElementById("password").value;
+            var password2 = document.getElementById("password2").value;
+            var email = document.getElementById("email").value;
+
+            if (username == "" || password == "" || email == "")
+            {
+                info.innerHTML = "用户名、密码、email 不能为空号！";
+            }
+            else if (password != password)
+            {
+                info.innerHTML = "两次密码不一致！";
+            }
+            else
+            {
+                ajax("../handler/sign_up.ashx?username=" + username + "&password=" + password + "&email=" + email, function (resText)
+                {
+                    info.innerHTML = resText;
+                    if (resText == "注册成功")
+                    {
+                        info.style.color = "green";
+                        location.href = "homepage.html";
+                    }
+                })
+            }
+        }
+</script>
+
+</html>

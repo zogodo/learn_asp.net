@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.JSON和Ajax", "JSON和Ajax\2.JSON和Ajax.csproj", "{C3198CD4-EC09-4BDD-B123-B5B019EF647C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.验证登陆", "验证登陆\1.验证登陆.csproj", "{1A0A1A92-2CAE-4D75-8244-AF40E62E1F12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.cookie和sestion", "cookie和sestion\3.cookie和sestion.csproj", "{ABD35442-6F2A-4C67-AA93-CCE31BCF510A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.JQuery_EasyUI", "JQuery_EasyUI\4.JQuery_EasyUI.csproj", "{1D36C757-7D6C-4CCD-ADEF-4F743F379BB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.Web窗体", "Web窗体\5.Web窗体.csproj", "{08D4EA1A-B90B-4A13-8BAE-04D289B10AAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3198CD4-EC09-4BDD-B123-B5B019EF647C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3198CD4-EC09-4BDD-B123-B5B019EF647C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3198CD4-EC09-4BDD-B123-B5B019EF647C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3198CD4-EC09-4BDD-B123-B5B019EF647C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A0A1A92-2CAE-4D75-8244-AF40E62E1F12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A0A1A92-2CAE-4D75-8244-AF40E62E1F12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A0A1A92-2CAE-4D75-8244-AF40E62E1F12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A0A1A92-2CAE-4D75-8244-AF40E62E1F12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABD35442-6F2A-4C67-AA93-CCE31BCF510A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABD35442-6F2A-4C67-AA93-CCE31BCF510A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABD35442-6F2A-4C67-AA93-CCE31BCF510A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABD35442-6F2A-4C67-AA93-CCE31BCF510A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D36C757-7D6C-4CCD-ADEF-4F743F379BB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D36C757-7D6C-4CCD-ADEF-4F743F379BB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D36C757-7D6C-4CCD-ADEF-4F743F379BB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D36C757-7D6C-4CCD-ADEF-4F743F379BB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08D4EA1A-B90B-4A13-8BAE-04D289B10AAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08D4EA1A-B90B-4A13-8BAE-04D289B10AAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08D4EA1A-B90B-4A13-8BAE-04D289B10AAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08D4EA1A-B90B-4A13-8BAE-04D289B10AAF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
