@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using System.Web;
 
 namespace 验证登陆.一般处理程序
 {
@@ -13,8 +10,25 @@ namespace 验证登陆.一般处理程序
 
         public void ProcessRequest(HttpContext context)
         {
-            context.Response.ContentType = "text/plain";
-            context.Response.Write("Hello World");
+            context.Response.ContentType = "text/html";
+
+            string username = context.Request["username"];
+            string password = context.Request["password"];
+
+            //
+
+            if (username == "" || password == "")
+            {
+                context.Response.Write(@"empty");
+            }
+            else if (true)
+            {
+                context.Response.Write(@"OK");
+            }
+            else
+            {
+                context.Response.Write("error");
+            }
         }
 
         public bool IsReusable

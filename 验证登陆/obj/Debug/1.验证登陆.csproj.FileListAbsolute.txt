@@ -1,0 +1,6 @@
+D:\求索\Asp.Net教程-求索\验证登陆\bin\验证登陆.dll.config
+D:\求索\Asp.Net教程-求索\验证登陆\bin\验证登陆.dll
+D:\求索\Asp.Net教程-求索\验证登陆\bin\验证登陆.pdb
+D:\求索\Asp.Net教程-求索\验证登陆\obj\Debug\1.验证登陆.csprojResolveAssemblyReference.cache
+D:\求索\Asp.Net教程-求索\验证登陆\obj\Debug\验证登陆.dll
+D:\求索\Asp.Net教程-求索\验证登陆\obj\Debug\验证登陆.pdb

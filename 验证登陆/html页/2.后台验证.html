@@ -1,11 +1,40 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title></title>
-	<meta charset="utf-8" />
+    <style>
+        #in {
+            width: 247px;
+            height: auto;
+            background: aliceblue;
+            border: 3px solid black;
+            position: relative;
+            margin: auto;
+            margin-top: 15%;
+            //top: -143px;
+            //padding: 23px 0 21px 40px;
+        }
+
+        form {
+            margin-left: 36px;
+        }
+    </style>
 </head>
 <body>
-
+    <div id="in">
+        <h1 align="center">用户登录</h1>
+        <form action="../一般处理程序/验证登陆.ashx" id="login" method="post">
+            <p>用户名：</p>
+            <input type="text" id="usr" name="username" value="">
+            <p>密码：</p>
+            <input type="password" id="pas" name="password" value="">
+            <br />
+            <br />
+            <button type="submit">登录</button>
+            <a href="Register.html" style="text-decoration: none">注册</a>
+            <br />
+            <br />
+            <br />
+        </form>
+    </div>
 </body>
 </html>

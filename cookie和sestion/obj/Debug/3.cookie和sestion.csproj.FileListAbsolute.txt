@@ -1,0 +1,6 @@
+D:\求索\Asp.Net教程-求索\cookie和sestion\bin\cookie和sestion.dll.config
+D:\求索\Asp.Net教程-求索\cookie和sestion\bin\cookie和sestion.dll
+D:\求索\Asp.Net教程-求索\cookie和sestion\bin\cookie和sestion.pdb
+D:\求索\Asp.Net教程-求索\cookie和sestion\obj\Debug\3.cookie和sestion.csprojResolveAssemblyReference.cache
+D:\求索\Asp.Net教程-求索\cookie和sestion\obj\Debug\cookie和sestion.dll
+D:\求索\Asp.Net教程-求索\cookie和sestion\obj\Debug\cookie和sestion.pdb
